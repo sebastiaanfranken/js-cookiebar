@@ -1,0 +1,27 @@
+{
+    "name": "sfranken/cookiebar",
+    "description": "A simple cookiebar to comply with EU law.",
+    "type": "bolt-extension",
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastiaan Franken",
+            "email": "sebastiaan@sebastiaanfranken.nl"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extension\\Sfranken\\Cookiebar\\": ""
+        }
+    },
+
+    "extra": {
+        "bolt-assets": "assets"
+    }
+}

@@ -1,0 +1,102 @@
+.cookiebar-wrapper {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	background: #fff;
+	border-top: 1px solid #000066;
+	opacity: 0;
+	-webkit-transition: opacity 500ms ease-in-out 0s;
+	-moz-transition: opacity 500ms ease-in-out 0s;
+	-ms-transition: opacity 500ms ease-in-out 0s;
+	-o-transition: opacity 500ms ease-in-out 0s;
+	transition: opacity 500ms ease-in-out 0s;
+}
+
+.cookiebar {
+	max-width: 1140px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cookiebar p {
+	margin-bottom: 0;
+	line-height: 60px;
+	float: left;
+}
+
+.cookiebar-button-wrapper {
+	float: right;
+	height: 60px;
+}
+
+.cookiebar-button-wrapper > a {
+	display: block;
+	height: 40px;
+	margin-top: 10px;
+	margin-right: 15px;
+	line-height: 38px;
+	padding-left: 25px;
+	padding-right: 25px;
+	float: left;
+	border: 1px solid #ddd;
+	-webkit-transition: border-color 400ms ease-in-out 0s, color 400ms ease-in-out 0s;
+	-moz-transition: border-color 400ms ease-in-out 0s, color 400ms ease-in-out 0s;
+	-ms-transition: border-color 400ms ease-in-out 0s, color 400ms ease-in-out 0s;
+	-o-transition: border-color 400ms ease-in-out 0s, color 400ms ease-in-out 0s;
+	transition: border-color 400ms ease-in-out 0s, color 400ms ease-in-out 0s;
+	text-decoration: none;
+}
+
+.cookiebar-button-wrapper > a:hover {
+	text-decoration: none;
+	border-color: #333;
+	color: #333;
+}
+
+.cookiebar-button-wrapper > .cookiebar-accept {
+	color: green;
+}
+
+.cookiebar-button-wrapper > .cookiebar-accept:hover {
+	border-color: green;
+}
+
+.cookiebar-button-wrapper > .cookiebar-decline {
+	color: red;
+	margin-right: 0;
+}
+
+.cookiebar-button-wrapper > .cookiebar-decline:hover {
+	border-color: red;
+}
+
+.cookiebar-visible {
+	opacity: 1;
+}
+
+.cookiebar-invisible {
+	opacity: 0;
+}
+
+@media all and (max-width: 768px) {
+
+	.cookiebar-wrapper {
+		height: auto;
+		text-align: center;
+	}
+
+	.cookiebar p,
+	.cookiebar-button-wrapper {
+		float: none;
+	}
+
+	.cookiebar-button-wrapper {
+		display: table;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
