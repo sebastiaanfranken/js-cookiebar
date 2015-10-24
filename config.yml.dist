@@ -1,0 +1,21 @@
+# User configurable options for the JS Cookiebar
+# addon for Bolt.
+
+# The bannertext to show to users
+banner: "Deze site maakt gebruik van cookies. Gaat u hiermee akkoord?"
+
+# The "I accept" button labeltext
+acceptButtonLabel: "Ja"
+
+# The "I do not accept" button labeltext
+declineButtonLabel: "Nee"
+
+# Does your site have a privacy policy and should
+# we use it?
+usePrivacyPolicy: true
+
+# The label for the privacy policy button
+privacyPolicyLabel: "Privacybeleid"
+
+# The URL to your privacy policy
+privacyPolicyURL: "/pagina/privacy"
