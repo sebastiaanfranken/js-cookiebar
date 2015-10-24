@@ -23,7 +23,7 @@ class Extension extends BaseExtension
 
     public function getCookiebarPreferences()
     {
-        $html = '<script type="text/javascript">var cookiebarPreferences = %s</script>';
+        $html = '<script type="text/javascript">window.cookiebarPreferences = %s</script>';
 
         return sprintf($html, json_encode($this->config));
     }

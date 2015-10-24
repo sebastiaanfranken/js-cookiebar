@@ -4,7 +4,7 @@
  *
  * @var array
  */
-var defaults = cookiebarPreferences;
+var defaults = window.cookiebarPreferences;
 
 /**
  * The states of the EU this is required in
