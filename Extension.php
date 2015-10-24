@@ -4,6 +4,7 @@ namespace Bolt\Extension\Sfranken\Cookiebar;
 
 use Bolt\Application;
 use Bolt\BaseExtension;
+use Bolt\Extension\Snippets\Location;
 
 class Extension extends BaseExtension
 {
@@ -11,7 +12,7 @@ class Extension extends BaseExtension
 
     public function initialize() {
         $this->addCss('assets/cookiebar.css');
-        $this->addSnippet('cookiebarconfig', 'getCookiebarPreferences');
+        $this->addSnippet(Location::END_OF_HEAD, 'cookiebarconfig', 'getCookiebarPreferences');
         $this->addJavascript('assets/cookiebar.js', true);
     }
 
