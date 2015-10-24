@@ -4,7 +4,7 @@ namespace Bolt\Extension\Sfranken\Cookiebar;
 
 use Bolt\Application;
 use Bolt\BaseExtension;
-use Bolt\Extension\Snippets\Location;
+use Bolt\Extensions\Snippets\Location;
 
 class Extension extends BaseExtension
 {
