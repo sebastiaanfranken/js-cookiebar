@@ -4,38 +4,7 @@
  *
  * @var array
  */
-var defaults = {
-
-	/*
-	 * This is the banenr that's shown to the user. Put something useful here
-	 */
-	banner: "Deze site maakt gebruik van cookies. Gaat u hiermee akkoord?",
-
-	/*
-	 * The "yes" button label
-	 */
-	acceptButtonLabel: "Ja",
-
-	/*
-	 * The "no" button label
-	 */
-	declineButtonLabel: "Nee",
-
-	/*
-	 * Do you have a privacy policy?
-	 */
-	usePrivacyPolicy: true,
-
-	/*
-	 * Privacy policy label
-	 */
-	privacyPolicyLabel: "Privacybeleid",
-
-	/*
-	 * If so, where is it at?
-	 */
-	privacyPolicyURL: "/pagina/privacy"
-};
+var defaults = cookiebarPreferences;
 
 /**
  * The states of the EU this is required in
