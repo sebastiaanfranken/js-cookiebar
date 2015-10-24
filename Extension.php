@@ -13,7 +13,7 @@ class Extension extends BaseExtension
     public function initialize() {
         $this->addCss('assets/cookiebar.css');
         $this->addSnippet(Location::END_OF_HEAD, 'getCookiebarPreferences');
-        $this->addJavascript('assets/cookiebar.js', true);
+        $this->addJavascript('assets/cookiebar.js');
     }
 
     public function getName()
